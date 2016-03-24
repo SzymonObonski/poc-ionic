@@ -1,6 +1,6 @@
 angular.module('starter.controllers', [])
 
-.controller('MapCtrl', function($scope, $ionicLoading, $ionicPlatform, $window, $rootScope, $interval, $delegate) {
+.controller('MapCtrl', function($scope, $ionicLoading, $ionicPlatform) {
 
 
 
@@ -26,7 +26,7 @@ angular.module('starter.controllers', [])
 
 })
 
-.controller('ChatsCtrl', function($scope, $ionicSlideBoxDelegate, $state, $rootScope, $stateParams) {
+.controller('ChatsCtrl', function($scope, $ionicSlideBoxDelegate, $state) {
   var count = 0;
   var current = 0;
   $scope.nextSlide = function() {
