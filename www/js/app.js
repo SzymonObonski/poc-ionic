@@ -35,7 +35,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
     .state('tab', {
     url: '/tab',
     abstract: true,
-    templateUrl: 'templates/tabs.html',
+    templateUrl: 'www/templates/tabs.html',
     controller: 'ChatsCtrl'
   })
 
@@ -45,40 +45,40 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
       url: '/dash',
       views: {
         'tab-dash': {
-          templateUrl: 'templates/tab-dash.html',
+          templateUrl: 'www/templates/tab-dash.html',
           controller: 'ChatsCtrl'
         }
       }
     })
     .state('tab.go', {
       url: '/go',
-      templateUrl: 'templates/tab-go.html',
+      templateUrl: 'www/templates/tab-go.html',
     })
     .state('tab.go.landing', {
       url: '/landing',
-      templateUrl: 'templates/tab-go-landing.html',
+      templateUrl: 'www/templates/tab-go-landing.html',
       controller: 'ChatsCtrl',
     })
     .state('tab.go.slider', {
       url: '/slider',
-      templateUrl: 'templates/tab-go-slider.html',
+      templateUrl: 'www/templates/tab-go-slider.html',
       controller: 'ChatsCtrl'
     })
     .state('tab.go.stop', {
       url: '/stop',
-      templateUrl: 'templates/tab-go-stop.html',
+      templateUrl: 'www/templates/tab-go-stop.html',
       controller: 'ChatsCtrl'
     })
     .state('tab.go.work', {
       url: '/work',
-      templateUrl: 'templates/tab-go-work.html',
+      templateUrl: 'www/templates/tab-go-work.html',
       controller: 'ChatsCtrl'
     })
     .state('tab.news', {
       url: '/news',
       views: {
         'tab-news': {
-          templateUrl: 'templates/tab-news.html',
+          templateUrl: 'www/templates/tab-news.html',
           controller: 'ChatsCtrl'
         }
       }
@@ -87,7 +87,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
       url: '/map',
       views: {
         'tab-map': {
-          templateUrl: 'templates/tab-map.html',
+          templateUrl: 'www/templates/tab-map.html',
           controller: 'MapCtrl'
         }
       }
